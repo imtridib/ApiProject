@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peddy</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="w-full bg-white px-6 py-3 flex items-center justify-between">
+        <!-- Left: Logo -->
+        <div class="flex items-center space-x-2">
+            <span class="text-2xl"><img src="Images/logo.webp" alt=""></span>
+            <h1 class="text-xl font-bold">Peddy</h1>
+        </div>
+
+        <!-- Center: Links -->
+        <ul class="hidden md:flex space-x-8 text-gray-700 font-medium">
+            <li><a href="#" class="hover:text-blue-600">Home</a></li>
+            <li><a href="#" class="hover:text-blue-600">Shop</a></li>
+            <li><a href="#" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+
+        <!-- Right: User Icon -->
+        <div class="flex items-center">
+            <button class="w-10 h-10 flex items-center justify-center rounded-full border hover:bg-gray-100">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M5.121 17.804A9 9 0 1118.879 6.196a9 9 0 01-13.758 11.608zM15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+    <section class="text-center px-6 py-12">
+        <!-- Small Heading -->
+        <p class="text-gray-600 font-semibold text-lg mb-2 flex justify-center items-center gap-2">
+            Bringing Families Together
+            <span>
+                <img src="Images/logo.webp" alt="Logo" class="w-6 h-6 inline-block">
+            </span>
+        </p>
+
+        <!-- Main Heading -->
+        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-snug mb-4">
+            Your Path to Adoption <br /> Starts Here
+        </h1>
+
+        <!-- Paragraph -->
+        <p class="text-gray-600 max-w-2xl mx-auto mb-6">
+            It is a long established fact that a reader will be distracted by the readable content
+            of a page when looking at its layout. The point of using Lorem Ipsum is that it has a.
+        </p>
+
+        <!-- Button -->
+        <button class="bg-teal-600 hover:bg-teal-700 text-white px-6 py-2 rounded-lg font-medium">
+            View More
+        </button>
+
+        <!-- Image (replace src with your image later) -->
+        <div class="mt-10 flex justify-center">
+            <img src="Images/pet.webp" alt="Dog and Cat" class="max-w-lg w-full h-auto">
+        </div>
+    </section>
+
+    <section class="text-center px-6 py-12">
+        <!-- Heading -->
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">
+            Adopt Your Best Friend
+        </h2>
+
+        <!-- Paragraph -->
+        <p class="text-gray-600 max-w-2xl mx-auto">
+            It is a long established fact that a reader will be distracted by the readable
+            content of a page when looking at its layout. The point of using Lorem Ipsum
+            is that it has a.
+        </p>
+
+        <nav id="categories" class="py-8 flex gap-5 justify-center"></nav>
+    </section>
+
+  <script src="functional.js"></script>
+</body>
+
+</html>
